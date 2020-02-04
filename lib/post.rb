@@ -22,4 +22,5 @@ class Post
 
   end
 
+
 end
