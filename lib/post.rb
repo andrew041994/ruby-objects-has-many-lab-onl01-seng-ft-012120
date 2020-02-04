@@ -15,8 +15,10 @@ class Post
   def author_name
     unless author.name == ""
    self.name = author.name
- else
-   nil
+    else
+        nil
+    end
+
   end
 
 
