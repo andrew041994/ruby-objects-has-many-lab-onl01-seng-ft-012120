@@ -14,11 +14,8 @@ class Post
 
   def author_name
     # binding.pry
-    if
+
     self.name = author.name
-  else
-    nil
-  end
 
   end
 
