@@ -13,9 +13,9 @@ class Post
   end
 
   def author_name
-    unless author.name == ""
-   self.name = author.name
- elsif author.name.nil?
+    if author.name == ""
+        self.name = author.name
+    elsif author.name.nil?
         nil
     end
 
