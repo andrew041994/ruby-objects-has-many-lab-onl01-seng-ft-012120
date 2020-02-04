@@ -1,9 +1,9 @@
-# require 'pry'
 class Song
   attr_accessor :artist, :name
+
     @@all = []
+
   def initialize(name)
-    # binding.pry
     @name = name
     @@all << self
   end
@@ -18,9 +18,5 @@ class Song
     else
       self.name = artist.name
     end
-
   end
-
-
-
 end
