@@ -19,6 +19,7 @@ class Post
     self.name = author.name
     # binding.pry
   end
+  end
 
 
 
