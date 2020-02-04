@@ -22,6 +22,10 @@ class Post
 
   end
 
+  def name
+    
+  end
+
 
 
 end
