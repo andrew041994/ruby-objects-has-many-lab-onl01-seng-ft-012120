@@ -1,13 +1,12 @@
-require 'pry'
 class Post
   attr_accessor :author, :title, :name
-  @@all = []
+    @@all = []
   def initialize(title)
    @title = title
    @@all << self
    @name = name
   end
-
+  
   def self.all
     @@all
   end
@@ -16,12 +15,7 @@ class Post
     if author == nil
       return nil
     else
-    self.name = author.name
-    # binding.pry
+      self.name = author.name
+    end
   end
-  end
-
-
-
-
 end
