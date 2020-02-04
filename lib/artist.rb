@@ -28,4 +28,13 @@ class Artist
         @@song_count
      end
 
+     def artist_name
+       if artist == nil
+         nil
+       else
+         self.name = artist.name
+       end
+
+     end
+
 end
