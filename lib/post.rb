@@ -18,6 +18,7 @@ class Post
     self.name = author.name
   else
     nil
+  end
 
   end
 
