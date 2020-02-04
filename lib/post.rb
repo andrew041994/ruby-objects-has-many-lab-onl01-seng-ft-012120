@@ -17,7 +17,7 @@ class Post
     if author.name != []
     self.name = author.name
   else
-    nil
+    return nil
   end
 
   end
