@@ -14,6 +14,7 @@ class Post
 
   def author_name
     self.name = author.name
+    binding.pry
   end
 
 
