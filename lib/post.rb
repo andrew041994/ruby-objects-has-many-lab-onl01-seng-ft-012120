@@ -12,7 +12,7 @@ class Post
     @@all
   end
 
-  def author_name
+  def author_name(arg)
     self.name = author.name
   end
 
