@@ -15,7 +15,7 @@ class Post
   def author_name
     # binding.pry
     if author.name != ""
-    self = author.name
+      author.name
   else
     return nil
   end
