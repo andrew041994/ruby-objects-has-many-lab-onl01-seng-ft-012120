@@ -1,4 +1,3 @@
-require 'pry'
 class Artist
   attr_accessor :name
     @@song_count = 0
@@ -27,7 +26,4 @@ class Artist
      def self.song_count
         @@song_count
      end
-
-
-
 end
